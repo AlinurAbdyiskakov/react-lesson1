@@ -19,6 +19,8 @@ document.querySelector(' #example-3 input').addEventListener('input', function (
         document.querySelector('#example-3 h1').innerText = `your name is"${name}"`;
     });
 
+
+
     let text= "";
 let text1 = document.querySelector('#text-1');
 let text2 = document.querySelector('#text-2');
@@ -39,8 +41,8 @@ text2.value = text;
 text3.value = text;
 });
 
-let text3 = document.querySelector('#text-2');
-text3.addEventListener('input',function(){
+let text4 = document.querySelector('#text-3');
+text4.addEventListener('input',function(){
 text = this.value;
 text1.value = text;
 text2.value = text;
